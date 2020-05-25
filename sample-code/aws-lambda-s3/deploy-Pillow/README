@@ -1,6 +1,6 @@
-Make zip package with Pillow for deploying to lambda
+Make zip package with Pillow(Python Imaging Lib) for deploying to lambda
 
-using lambi/lambda docker container.
+using lambci/docker-lambda docker container.
 
 
 RUN:
