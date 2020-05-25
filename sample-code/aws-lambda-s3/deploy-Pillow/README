@@ -1,0 +1,11 @@
+Make zip package with Pillow for deploying to lambda
+
+using lambi/lambda docker container.
+
+
+RUN:
+
+$ docker build -t mylambda:build-python3.8-zip .
+
+$ docker run --rm -v "$PWD":/var/task mylambda:build-python3.8-zip
+
